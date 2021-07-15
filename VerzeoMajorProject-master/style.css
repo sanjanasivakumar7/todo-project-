@@ -1,0 +1,277 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    border-radius: 10px;
+}
+#logo{
+    width: 50px;
+    height: 50px;
+    margin: 2px 10px;
+}
+#sideheading{
+    color: white;
+    margin: 2px 20px;
+}
+.headings{
+    font-weight: bold;
+    font-style: italic;
+}
+#todolabel{
+    margin-top: 20px;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+}
+#inputTodo{
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+#dropdown{
+    margin-top: 30px;
+}
+#selectinglabel{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+#selecting{
+    margin-left: 10px;
+    padding: 5px;
+    box-shadow: 4px 4px 4px grey;
+}
+#submitingTodo{
+    width: 200px;
+    box-shadow: 6px 2px 4px grey , -6px -2px 4px grey ;
+}
+.PrioBtn{
+    width: 130px;
+    font-size: 18px;
+    box-shadow: 6px 2px 4px grey , -6px -2px 4px grey ;
+}
+.DelBtn{
+    width: 60px;
+}
+.footer{
+    color: white;
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
+#carding{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* About page */
+#abt{
+    border: 3px solid black;
+    padding: 30px;
+    border-radius: 15px;
+}
+.members{
+    margin: 15px 0 0 15px;
+}
+.membersName{
+    color: blue;
+}
+.membersContri{
+    margin: 15px 0;
+} 
+
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .headings{
+        font-size: 26px;
+    }
+    #todolabel{
+        font-size: 20px;
+    }
+    #selectinglabel{
+        font-size: 17px;
+    }
+    #selecting{
+        margin-left: 8px;
+        padding: 2px;
+    }
+    #submitingTodo{
+        width: 150px;
+    }
+    .PrioBtn{
+        width: 110px;
+        font-size: 16px;
+    }
+    #AboutProject{
+        font-size: 22px;
+    }
+    .detailshead{
+        font-size: 18px;
+    }
+    .details{
+        font-size: 13px;
+    }
+    .linkings{
+        font-size: 13px;
+    }
+    #Ending{
+        font-size: 22px;
+    }
+    #abtmainheading{
+        font-size: 25px;
+    }
+    .abtsideheading{
+        font-size: 21px;
+    }
+    .members{
+        font-size: 19px;
+    }
+    .membersName{
+        font-size: 19px;
+    } 
+    .membersContri{
+        font-size: 17px;
+    } 
+}
+@media (min-width: 359px) and (max-width: 575px) {
+    .navbar-toggler{
+        font-size: 16px;
+    }
+    #logo{
+        margin: 0px 8px;
+        width: 30px;
+        height: 30px;
+    }
+    #sideheading{
+        font-size: 20px;
+    }
+    .headings{
+        font-size: 20px;
+    }
+    #todolabel{
+        font-size: 16px;
+    }
+    #inputTodo{
+        border-radius: 8px;
+        padding: 8px;
+    }
+    #selectinglabel{
+        font-size: 14px;
+    }
+    #selecting{
+        margin-left: 5px;
+        padding: 1px;
+    }
+    #submitingTodo{
+        width: 80px;
+    }
+    .PrioBtn{
+        width: 90px;
+        font-size: 14px;
+    }
+    #AboutProject{
+        font-size: 18px;
+    }
+    .detailshead{
+        font-size: 14px;
+    }
+    .details{
+        font-size: 12px;
+    }
+    .linkings{
+        font-size: 12px;
+    }
+    #Ending{
+        font-size: 18px;
+    }
+    #abt{    
+        border: 5px solid black;
+    }
+    #abtmainheading{
+        font-size: 21px;
+    }
+    .abtsideheading{
+        font-size: 17px;
+    }
+    .members{
+        font-size: 15px;
+    }
+    .membersName{
+        font-size: 15px;
+    } 
+    .membersContri{
+        font-size: 13px;
+    } 
+}
+@media (min-width: 260px) and (max-width: 358px) {
+    .navbar-toggler{
+        font-size: 12px;
+    }
+    #logo{
+        margin: 0px 8px;
+        width: 30px;
+        height: 30px;
+    }
+    #sideheading{
+        font-size: 18px;
+    }
+    .headings{
+        font-size: 15px;
+    }
+    #todolabel{
+        font-size: 12px;
+    }
+    #inputTodo{
+        border-radius: 5px;
+        padding: 5px;
+    }
+    #selectinglabel{
+        font-size: 12px;
+    }
+    #selecting{
+        margin-left: 5px;
+        padding: 0px;
+    }
+    #submitingTodo{
+        width: 70px;
+        font-size: 13px;
+    }
+    .PrioBtn{
+        width: 70px;
+        font-size: 12px;
+    }
+    #AboutProject{
+        font-size: 18px;
+    }
+    .detailshead{
+        font-size: 14px;
+    }
+    .details{
+        font-size: 12px;
+    }
+    .linkings{
+        font-size: 12px;
+    }
+    #Ending{
+        font-size: 18px;
+    }
+    #abt{    
+        border: 5px solid black;
+    }
+    #abtmainheading{
+        font-size: 18px;
+    }
+    .abtsideheading{
+        font-size: 14px;
+    }
+    .members{
+        font-size: 12px;
+    }
+    .membersName{
+        font-size: 12px;
+    } 
+    .membersContri{
+        font-size: 10px;
+    } 
+}
+
